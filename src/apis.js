@@ -2,7 +2,7 @@ import axios from "axios"
 
 const apiInstance = axios.create({
     baseURL: import.meta.env.VITE_BE_URL,
-    timeout: 10000
+    timeout: 20000
 });
 
 export const signUpAPI = async (userDetails) => {
