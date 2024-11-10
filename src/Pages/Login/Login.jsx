@@ -1,12 +1,12 @@
 import { useSelector } from "react-redux"
 import Signin from "../../Components/Signin/Signin.jsx"
-import Signup from "../../Components/Signup/SIGNUP.JSX"
+import SignupForm from "../../Components/Signup/Signup.jsx"
 const Login = () => {
 
     const appreducer = useSelector((state) => state.appreducer);
 
     return (<>
-        {appreducer.isRegistered ? <Signin /> : <Signup />}
+        {appreducer.isRegistered ? <Signin /> : <SignupForm />}
     </>)
 }
 
