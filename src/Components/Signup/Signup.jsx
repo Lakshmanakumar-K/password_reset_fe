@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { signUpAPI } from "../../apis.js"
 import { useDispatch } from "react-redux";
-import styles from "./signup.module.css"
+import styles from "./Signup.module.css"
 
 
 const SignupForm = () => {
